@@ -1,0 +1,23 @@
+{
+  "name": "ronswansonquotesapi",
+  "version": "1.0.0",
+  "description": "API to recieve Ron Swanson quotes ## Endpoint  https://RonSwansonQuotesAPI.null3000.repl.co/api/v1/quote <p> Returns random Ron Swanson quote",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/null3000/RonSwansonQuotesAPI.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/null3000/RonSwansonQuotesAPI/issues"
+  },
+  "homepage": "https://github.com/null3000/RonSwansonQuotesAPI#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}
