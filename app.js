@@ -1,5 +1,8 @@
 const app = require('express')();
 const PORT = process.env.PORT || 4000;
+const cors = require('cors');
+
+app.use(cors());
 
 const endpoint = '/api/v1/'
 app.get(endpoint + 'quote', (req, res) => {
